@@ -1,0 +1,209 @@
+
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: 'Ubuntu Mono';
+}
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.308);
+}
+.logo img{
+    width: 350px;
+    margin: 10px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-size: 16px;
+    width: 200px;
+    text-align: center;
+}
+nav a:hover{
+    background-color: #4682B4;
+    color: white;
+}
+.content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 1px 8px 10px rgba(0, 0, 0, 0.308);
+}
+.fone{
+    height: 1080px;
+    width: 100%;
+    background-image: url(../media/landing_page/image/reka-gory-les-3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    font-size: 48px;
+    box-shadow: 1px 8px 10px rgba(0, 0, 0, 0.308);
+}
+.dark-theme{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.308);
+}
+.afisha{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.afish{
+    width: 320px;
+    height: 270px;
+    margin: 10px;
+    
+}
+.img1{
+    background-image: url(../media/landing_page/afisha/1.PNG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img2{
+    background-image: url(../media/landing_page/afisha/2.PNG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img3{
+    background-image: url(../media/landing_page/afisha/3.PNG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img4{
+    background-image: url(../media/landing_page/afisha/4.PNG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.info-afisha{
+    padding: 10px;
+    width: 300px;
+    height: 250px;
+    background-color: rgba(0, 0, 0, 0.377);
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.info-afisha p{
+    text-align: center;
+}
+.info-afisha input{
+    padding: 10px;
+    width: 200px;
+    background-color: #4682B4;
+    color: white;
+    margin: 0 auto;
+    border: none;
+}
+.info-afisha input:hover{
+    background-color: #325a7a;
+    cursor: pointer;
+}
+.afish:hover .info-afisha{
+    display: flex;
+}
+.novost{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.new-novost{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.new{
+    height: 800px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 30px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.308);
+    margin: 20px;
+    font-size: 16px;
+}
+.new>input{
+    background-color: #4682B4;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 300px;
+    margin: 10px;
+}
+.new>input:hover{
+    background-color: #325a7a;
+    cursor: pointer;
+}
+.new>div{
+    margin: 20px;
+    width: 320px;
+}
+.new img{
+    width: 300px;
+    border-radius: 25px;
+}
+footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(59, 59, 59);
+}
+footer a{
+    text-decoration: none;
+    color: rgb(59, 59, 59);
+}
+footer>div{
+    margin: 10px;
+    color: rgb(59, 59, 59);
+}
+footer nav a{
+    color: rgb(59, 59, 59);
+    border-left: 1px solid rgb(168, 168, 168);
+    border-right: 1px solid rgb(168, 168, 168);
+}
+footer nav a:hover{
+    background-color: rgb(168, 168, 168);
+    color: rgb(59, 59, 59);
+}
